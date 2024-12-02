@@ -1,6 +1,6 @@
 workflows:
   ios_simulator:
     name: iOS Simulator Build
-    instance_type: macos-latest
+    instance_type: mac_mini
     scripts:
       - flutter build ios --simulator
